@@ -135,4 +135,5 @@ module "vpc" {
 }
 ``` 
 
-In conclusion, Terraform's combination of declarative syntax, multi-cloud support, and modular design makes it a powerful tool for infrastructure management.
+----
+### **How do you handle dependency management between resources in Terraform?**
