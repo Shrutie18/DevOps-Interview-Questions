@@ -4,7 +4,7 @@ Kubernetes is an open-source platform designed to automate the deployment, scali
 2. **Resilience**: Automatically restarts failed containers, reschedules them on healthy nodes, and manages rollbacks.
 3. **Portability**: Works across on-premises, cloud, and hybrid environments.
 4. **Load Balancing**: Distributes traffic across containers efficiently.
-5. **Declarative Configuration**: Uses YAML/JSON manifests to define desired states.
+5. **Declarative Configuration**: Uses YAML/JSON manifests to define desired states..
 
 ---
 
