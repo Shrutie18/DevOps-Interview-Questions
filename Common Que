@@ -332,18 +332,19 @@ State locking prevents simultaneous state changes. It ensures only one operation
 
 ---
 
-### **8. Share an example of a complex Terraform project you've worked on, highlighting the challenges you faced and how you overcame them.**
+### ***8. Share an example of a complex Terraform project you've worked on, highlighting the challenges you faced and how you overcame them.***
 
-#### **Example**:
+#### ***Example***:
 - **Project**: Multi-environment AWS infrastructure provisioning.
 - **Challenges**:  
   - Managing environment-specific configurations.  
   - Handling cross-account roles and permissions.  
   - State management for multiple teams.
 
-- **Solutions**:  
+- ***Solutions***:  
   - Used workspaces for environment isolation.  
   - Modularized code for reusability and clarity.  
   - Implemented S3 + DynamoDB backend for state locking and sharing.  
   - Collaborated via Git workflows and Terraform Cloud.  
+---
 
