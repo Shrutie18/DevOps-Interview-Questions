@@ -259,8 +259,8 @@ Implement a rollback stage that deploys the previous stable version in case of f
 Use Blue-Green or Canary Deployments:
 
 Gradually test the new version and keep the old one active for quick rollback.
-
-7)Your company is adopting Infrastructure as Code (IaC) using tools like Terraform. How can you incorporate Terraform scripts into your Jenkins pipeline to automate the provisioning of infrastructure alongside application deployment?
+---
+### **7)Your company is adopting Infrastructure as Code (IaC) using tools like Terraform. How can you incorporate Terraform scripts into your Jenkins pipeline to automate the provisioning of infrastructure alongside application deployment?**
 
 -->Steps:
 Install Terraform:
@@ -278,8 +278,8 @@ Store Terraform scripts in a Git repository.
 Secure Credentials:
 
 Use Jenkins credentials to securely manage access keys.
-
-8)) Your team is developing a mobile application for iOS and Android. How would you configure Jenkins to build and test the app for both platforms, considering the differences in build and testing tools?
+---
+### **8)) Your team is developing a mobile application for iOS and Android. How would you configure Jenkins to build and test the app for both platforms, considering the differences in build and testing tools?**
 -->Steps:
 Install Required Tools:
 
@@ -291,8 +291,8 @@ Configure pipelines for each platform with respective build steps.
 Test Automation:
 
 Use tools like XCTest (iOS) and Espresso (Android) for automated testing.
-
- 9)Your team is considering migrating from a traditional Jenkins setup to Jenkins Pipelines (Jenkinsfile). Explain the benefits of using Jenkins Pipelines and the steps you would take to migrate existing jobs.
+---
+###  **9)Your team is considering migrating from a traditional Jenkins setup to Jenkins Pipelines (Jenkinsfile). Explain the benefits of using Jenkins Pipelines and the steps you would take to migrate existing jobs.**
 
  ---->Benefits:
 Code as Configuration: Manage jobs as code using Jenkinsfile.
@@ -311,13 +311,16 @@ Implement Gradually:
 Migrate jobs incrementally to ensure stability.
 
 ```
- 1. What is Docker, and how does it differ from traditional virtualization?
+__Docker__
+
+---
+### **1)What is Docker, and how does it differ from traditional virtualization?**
 Docker: A platform that automates the deployment of applications inside lightweight, portable containers.
 Difference:
 Traditional virtualization uses hypervisors to emulate hardware, running multiple OS instances on a host.
 Docker uses containerization, sharing the host OS kernel, which makes it more lightweight and faster.
-
-2. Explain the key components of Docker's architecture.
+---
+### **2. Explain the key components of Docker's architecture.**
 Docker Engine: Core service running on the host, responsible for managing containers.
 Docker Daemon: Handles API requests and manages Docker objects.
 Docker CLI: Command-line interface to interact with Docker.
@@ -326,14 +329,14 @@ Docker Images: Read-only templates used to create containers.
 Docker Containers: Running instances of images.
 Docker Registry: Stores and distributes Docker images (e.g., Docker Hub).
 Docker Network: Ensures communication between containers.
-
-3. What are Docker containers, and how do they work?
+---
+### **3. What are Docker containers, and how do they work?**
 Containers: Lightweight, standalone, and portable units of software that include everything needed to run an application.
 How They Work:
 Created from images.
 Use kernel namespaces and control groups (cgroups) for isolation.
 Share the host OS kernel for lightweight performance.
-
+---
 4. How do you create a Docker image? Can you explain the Dockerfile and its significance?
 Create an Image:
 Write a Dockerfile (blueprint for creating images).
