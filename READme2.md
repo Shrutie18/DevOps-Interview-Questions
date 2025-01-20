@@ -205,7 +205,7 @@ Coordinate Deployments:
 Use a centralized orchestration job or pipeline to trigger deployments of all services as needed.
 Automate Testing:
 
-Add integration tests that validate interactions between microservices after deployment.
+Add integration tests that validate interactions between microservices after deployment..
 
 4)One of your Jenkins jobs failed during the build process, and you need to investigate the issue. Walk me through the steps you would take to identify the root cause of the failure and fix it.
 -->Steps:
